@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-20T22:11:23 IST" name="Suite" finished-at="2024-07-20T22:11:23 IST" duration-ms="131">
+    <groups>
+      <group name="regression">
+        <method signature="MultipleTCExample.TC_04()[pri:0, instance:testng.MultipleTCExample@2af004b]" name="TC_04" class="testng.MultipleTCExample"/>
+        <method signature="OneTCExample.TestCase_01()[pri:0, instance:testng.OneTCExample@2cf3d63b]" name="TestCase_01" class="testng.OneTCExample"/>
+      </group> <!-- regression -->
+      <group name="group1">
+        <method signature="OneTCExample.TestCase_01()[pri:0, instance:testng.OneTCExample@2cf3d63b]" name="TestCase_01" class="testng.OneTCExample"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test started-at="2024-07-20T22:11:23 IST" name="Test" finished-at="2024-07-20T22:11:23 IST" duration-ms="131">
+      <class name="testng.OneTCExample">
+        <test-method is-config="true" signature="method3()[pri:0, instance:testng.OneTCExample@2cf3d63b]" started-at="2024-07-20T22:11:23 IST" name="method3" finished-at="2024-07-20T22:11:23 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method is-config="true" signature="method1()[pri:0, instance:testng.OneTCExample@2cf3d63b]" started-at="2024-07-20T22:11:23 IST" name="method1" finished-at="2024-07-20T22:11:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method signature="TestCase_01()[pri:0, instance:testng.OneTCExample@2cf3d63b]" started-at="2024-07-20T22:11:23 IST" name="TestCase_01" finished-at="2024-07-20T22:11:23 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_01 -->
+        <test-method is-config="true" signature="method2()[pri:0, instance:testng.OneTCExample@2cf3d63b]" started-at="2024-07-20T22:11:23 IST" name="method2" finished-at="2024-07-20T22:11:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method is-config="true" signature="method4()[pri:0, instance:testng.OneTCExample@2cf3d63b]" started-at="2024-07-20T22:11:23 IST" name="method4" finished-at="2024-07-20T22:11:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+      </class> <!-- testng.OneTCExample -->
+      <class name="testng.MultipleTCExample">
+        <test-method signature="TC_04()[pri:0, instance:testng.MultipleTCExample@2af004b]" started-at="2024-07-20T22:11:23 IST" name="TC_04" finished-at="2024-07-20T22:11:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04 -->
+        <test-method is-config="true" signature="method1()[pri:0, instance:testng.MultipleTCExample@2af004b]" started-at="2024-07-20T22:11:23 IST" name="method1" finished-at="2024-07-20T22:11:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method is-config="true" signature="method2()[pri:0, instance:testng.MultipleTCExample@2af004b]" started-at="2024-07-20T22:11:23 IST" name="method2" finished-at="2024-07-20T22:11:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- testng.MultipleTCExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
